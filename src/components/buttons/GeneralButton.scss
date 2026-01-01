@@ -1,0 +1,18 @@
+.button {
+  &__control {
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #3b82f6;
+      box-shadow: 0 0 0 5px rgba(59, 131, 246, 0.37);
+      color: #ffffff;
+    }
+  }
+}
