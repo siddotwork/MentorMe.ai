@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "title": "Get unstuck. Learn from those who’ve already done it",
+    "subtitle": "Skip trial and error. Book 1-on-1 sessions with experienced mentors to accelerate your career and master new skills.",
+    "actions": [
+      {
+        "label": "Get started",
+        "href": "#",
+        "variant": "primary"
+      },
+      {
+        "label": "Learn more →",
+        "href": "#",
+        "variant": "link"
+      }
+    ]
+  },
+
+  "mentorsSection": {
+    "heading": "Learn from mentors at the world’s most innovative companies",
+    "companies": [
+      {
+        "name": "Meta",
+        "logo": "https://cdn.simpleicons.org/meta/white"
+      },
+      {
+        "name": "Apple",
+        "logo": "https://cdn.simpleicons.org/apple/white"
+      },
+      {
+        "name": "Tesla",
+        "logo": "https://cdn.simpleicons.org/tesla/white"
+      },
+      {
+        "name": "Netflix",
+        "logo": "https://cdn.simpleicons.org/netflix/white"
+      },
+      {
+        "name": "Google",
+        "logo": "https://cdn.simpleicons.org/google/white"
+      }
+    ]
+  },
+
+  "skillsSection": {
+    "title": "Learn what matters in real projects",
+    "ctaLabel": "Explore skills"
+  }
+}

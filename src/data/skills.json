@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Frontend Development",
+    "skills": [
+      {
+        "name": "React",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "HTML & CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+      }
+    ]
+  },
+  {
+    "title": "Backend Development",
+    "skills": [
+      {
+        "name": "Java",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+      },
+      {
+        "name": "Spring Boot",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+      },
+      {
+        "name": "REST APIs",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+      },
+      {
+        "name": "Microservices",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      }
+    ]
+  },
+  {
+    "title": "Database & Storage",
+    "skills": [
+      {
+        "name": "MySQL",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+      },
+      {
+        "name": "Firebase",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+      }
+    ]
+  },
+  {
+    "title": "System Design",
+    "skills": [
+      {
+        "name": "Low Level Design",
+        "logo": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
+      },
+      {
+        "name": "High Level Design",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2917/2917242.png"
+      },
+      {
+        "name": "Scalability",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2784/2784461.png"
+      },
+      {
+        "name": "Caching",
+        "logo": "https://cdn-icons-png.flaticon.com/512/1011/1011863.png"
+      }
+    ]
+  },
+  {
+    "title": "DevOps & Cloud",
+    "skills": [
+      {
+        "name": "Docker",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      },
+      {
+        "name": "AWS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+      },
+      {
+        "name": "CI/CD",
+        "logo": "https://cdn-icons-png.flaticon.com/512/4149/4149677.png"
+      },
+      {
+        "name": "Linux Basics",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+      }
+    ]
+  },
+  {
+    "title": "Interview Preparation",
+    "skills": [
+      {
+        "name": "DSA",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2103/2103832.png"
+      },
+      {
+        "name": "Problem Solving",
+        "logo": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+      },
+      {
+        "name": "Mock Interviews",
+        "logo": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+      },
+      {
+        "name": "Resume Review",
+        "logo": "https://cdn-icons-png.flaticon.com/512/942/942748.png"
+      }
+    ]
+  }
+]

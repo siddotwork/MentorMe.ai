@@ -1,0 +1,37 @@
+{
+  "platform_name": "MentorMe.ai",
+  "onboarding_steps": [
+    {
+      "step_number": 1,
+      "title": "Build Your Profile",
+      "description": "Tell us about your background, current role, and the specific goals you want to achieve.",
+      "cta_text": "Get Started",
+      "img_src": "https://api.iconify.design/lucide:user-plus.svg?color=%233b82f6",
+      "alt": "User Profile Icon"
+    },
+    {
+      "step_number": 2,
+      "title": "AI-Powered Matching",
+      "description": "Our AI analyzes your goals to match you with top-tier mentors who have the exact experience you need.",
+      "cta_text": "Find My Match",
+      "img_src": "https://api.iconify.design/lucide:sparkles.svg?color=%233b82f6",
+      "alt": "AI Matching Icon"
+    },
+    {
+      "step_number": 3,
+      "title": "Book Your Session",
+      "description": "Choose a time that works for you and book a 1-on-1 video call directly through our secure platform.",
+      "cta_text": "View Calendar",
+      "img_src": "https://api.iconify.design/lucide:calendar-check.svg?color=%233b82f6",
+      "alt": "Calendar Booking Icon"
+    },
+    {
+      "step_number": 4,
+      "title": "Accelerate Growth",
+      "description": "Attend your session, set actionable milestones, and track your career progress over time.",
+      "cta_text": "Start Learning",
+      "img_src": "https://api.iconify.design/lucide:trending-up.svg?color=%233b82f6",
+      "alt": "Growth Chart Icon"
+    }
+  ]
+}

@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
-import "./Navbar.scss";
-import { GeneralButton } from "../buttons/GeneralButton";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const navLinks = [
@@ -10,36 +8,41 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="navbar">
-      <div className="navbar__container">
-        <div className="navbar__left">
-          <NavLink to="/" className="navbar__brand">
-            <span className="navbar__logo">M</span>
-            MentorMe.ai
-          </NavLink>
+<nav className="bg-slate-950 border-b border-white/10 flex items-center justify-between px-6 py-4 lg:px-8">
+  <div className="flex lg:flex-1">
+    <Link to="/" className="flex items-center gap-2">
+      <img
+        src="/logo.png"
+        className="h-10 w-auto"
+        alt="MentorMe"
+      />
+      <span className="text-white font-semibold text-lg">
+        MentorMe.ai
+      </span>
+    </Link>
+  </div>
 
-          <div className="navbar__links">
-            {navLinks.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                className={({ isActive }) =>
-                  isActive
-                    ? "navbar__link navbar__link--active"
-                    : "navbar__link"
-                }
-              >
-                {link.label}
-              </NavLink>
-            ))}
-          </div>
-        </div>
+  <div className="hidden lg:flex gap-x-10">
+    {navLinks.map((item) => (
+      <Link
+        key={item.to}
+        to={item.to}
+        className="text-sm font-medium text-slate-300 hover:text-white transition"
+      >
+        {item.label}
+      </Link>
+    ))}
+  </div>
 
-        <div className="navbar__actions">
-          <GeneralButton label="Login" />
-          <GeneralButton label="Get Started" />
-        </div>
-      </div>
-    </nav>
+  <div className="hidden lg:flex lg:flex-1 justify-end">
+    <a
+      href="#"
+      className="rounded-md bg-indigo-500 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-400 transition"
+    >
+      Log in
+    </a>
+  </div>
+</nav>
+
   );
 }
